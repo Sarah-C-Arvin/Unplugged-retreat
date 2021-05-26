@@ -126,11 +126,11 @@ p{
 }
 
 img{
-
+  width: 100%;
 }
 
 figure{
-
+  margin: 0;
 }
 
 address{
@@ -151,6 +151,14 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #202322;
+  flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -225,10 +233,14 @@ footer .copyright {
 }
 /*--HOMEPAGE STYLES--*/
 .hero-area {
+  background: url('../img/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-}
+  }
+
 .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins';
@@ -273,6 +285,9 @@ input[type=button] {
 /*FEATURES*/
 
 .features {
+  background: url('../img/features-bkgrnd.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
