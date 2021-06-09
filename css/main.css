@@ -302,16 +302,23 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 .features h2 {
   margin-bottom: 60px;
 }
 
+.features-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .features article {
   width: 63%;
   margin: 30px 0;
-  padding-left: 55px;
 }
 
 .features p {
@@ -351,7 +358,9 @@ input[type=button] {
 /*---ABOUT PAGE---*/
 .mission {
   background-color: #527158;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mission h3{
@@ -363,8 +372,8 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 20px;
 }
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
@@ -575,20 +584,18 @@ input[type=button] {
   }
 
   /*FEATURES*/
+
   .features h2 {
     margin-bottom: 20px;
   }
 
-  .features-items article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    flex-basis: 50%;
+  .features article {
+    width: 50%;
   }
 
-  .features .features-item-description {
-    width: 62%;
+  .features .features-item-description{
+    width: 65%;
+    padding-left: 55px;
   }
 
   .features i {
