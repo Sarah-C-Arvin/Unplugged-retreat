@@ -692,17 +692,21 @@ input[type=button] {
   padding-bottom: 45.5%;
 }
 
-.contact-section .content-wrapper h2 {
-  width: 80%
-}
-.contact-content {
+.contact-section .content-wrapper h2 {\
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
+  font-size: 2.75em;
 }
 
-.contact-content h4 {
-  font-size: 1.5em;
+address {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.contact-section h4 {
+  font-size: 1.55em;
 }
 
 
@@ -773,10 +777,10 @@ footer h4 {
 
 .mission h2, .contact-section .content-wrapper h2 {
   width: 95%;
-  font-size: 3em;
+  font-size: 2.98em;
 }
 
-.contact-content h4 {
+.contact-section h4 {
   font-size: 1.875em;
 }
 
